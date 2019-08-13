@@ -3,7 +3,7 @@
 using namespace std;
 
 // array_reverse
-/*
+
 void reverse_ (int*, int, int);
 void reverse_ (int* A, int n){
     reverse_ (A,0,n-1);
@@ -26,9 +26,9 @@ int main()
     }
     return 0;
 }
-*/
+
 // array_sum
-/*
+
 int sum(int A[],int len){
     int Sum = 0;
     for(int i = 0; i<len ;i++ ){
@@ -42,9 +42,9 @@ int main(){
     cout<< sum(a,6) ;
     return 0;
 }
-*/
+
 //array_sum_recursion
-/*
+
 int sum( int A[], int len){
     if( len < 1 )
         return 0;
@@ -58,9 +58,9 @@ int main(){
     cout << sum(a,5) ;
     return 0;
 }
-*/
+
 // heap_sort
-/*
+
 void max_heapity(int a[], int pos, int len){
     //给定子节点，计算其左右孩子节点
     int left = 2 * pos;
@@ -101,9 +101,9 @@ int main(){
     cout << endl;
     return 0;
 }
-*/
+
 //quick_sort
-/*
+
 int partion(int a[],int p, int r){
     int i = p-1;
     int x = a[r-1];
@@ -136,10 +136,10 @@ int main(){
     }
     return 0;
 }
-*/
+
 
 //TOP-K
-/*
+
 int partion(vector<int> &a,int left,int right){
     int i = left - 1;
     int x = a[right-1];
@@ -188,7 +188,7 @@ int main(){
     }
     cout <<endl;
 }
-*/
+
 
 //insert_sort
 
